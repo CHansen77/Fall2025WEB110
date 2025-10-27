@@ -1,0 +1,94 @@
+/* Caleb Hansen 10/26/25 */
+body{
+	background-image: url(background.png);
+	background-attachment: fixed;
+	background-size: contain;
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-size: 1.2rem;
+}
+.wrapper{
+	width: 50%;
+	height: 95%;
+	margin: 0 auto;
+	text-align: center;
+}
+header{
+	background-color: #66101F;
+	color: #F8F4E3;
+	height: 300px;
+	border-bottom: 2px #07220A;
+	border-right: 2px #07220A;
+	border-left: 2px #07220A;
+	border-style: solid;
+}
+footer{
+	background-color: #66101F;
+	color: #F8F4E3;
+	border-left: 2px #07220A;
+	border-right: 2px #07220A;
+	border-style: solid;
+}
+footer p{
+	font-size: 75%;
+	min-height: 5%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+.content{
+	background-color: #4DE4FF;
+	padding: 10%;
+	min-height: 75%;
+	border-width: 2px;
+	border-color: #07220A;
+	border-style: solid;
+}
+p{
+	max-width: 70%;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+	color: green;
+}
+a:hover{
+	font-weight: bold;
+}
+a:visited{
+	color: #77AE7D;
+}
+.content a{
+	color: orange;
+}
+.content a:hover{
+	font-weight: bold;
+}
+.content a:visited{
+	color: yellow;
+}
+h1{
+	font-family: Georgia, "Times New Roman", serif;
+	padding-top: 50px;
+	font-size: 3rem;
+}
+h2{
+	font-family: Georgia, "Times New Roman", serif;
+}
+ul{
+	list-style-position: inside;
+}
+ol{
+	list-style-position: inside;
+}
+nav{
+	position: absolute; 
+	left: 43%;
+	padding-bottom: 20px;
+}
+img {
+	width: 20rem;
+	border-radius: 2rem;
+	border-width: 10px;
+	border-color: #FFA34D;
+	border-style: solid;
+	margin: 5% auto;
+}
