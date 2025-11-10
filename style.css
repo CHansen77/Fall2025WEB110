@@ -1,0 +1,20 @@
+/* 10/9/25 Caleb Hansen */
+table {
+	border: 2px solid #222;
+	margin: auto;
+	width: 80%;
+}
+th, td {
+	border: 2px solid #222;
+	padding: 0.5em;
+	text-align: center;
+}
+.movieTitle {
+	text-align: left;
+}
+tr:nth-child(odd) {
+	background-color: #f4e1d2;
+}
+tr:nth-child(even) {
+	background-color: #c5dff8;
+}
